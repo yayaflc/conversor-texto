@@ -6,6 +6,7 @@
     --branco: #FFFFFF;
     --branco-opaco: #E0E0E0;
     --bege: #AA8B7D;
+    --marrom: #78635A;
 
     --josefin: 'Josefin Sans', sans-serif;
     --poppins: 'Poppins', sans-serif;
@@ -57,6 +58,13 @@ button {
     border: none;
 }
 
+button:hover {
+    background-color: var(--marrom);
+    color: var(--branco);
+    cursor: pointer;
+    transition: 0.6s;
+}
+
 label {
     color: var(--branco-opaco);
     background-color: var(--cinza-claro);
@@ -85,7 +93,7 @@ form {
 }
 
 .buttons {
-    padding-top: 20px;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;    
