@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Conversor de Texto</title>
+     <link rel="stylesheet" href= "style.css">
+</head>
+<body>
+    <h1>Conversor de Texto</h1>
+
+    <div class="container">
+        <form>
+            <textarea id="texto" name="texto" placeholder="Digite sua frase..."></textarea>
+            <div class="buttons">
+                <button type="button" onclick="converterUpperCase();">maiúscula</button>
+                <button type="button" onclick="converterLowerCase();">minúscula</button>
+                <button type="button" onclick="converterSpecial();">especial</button>
+            </div>
+            <label id="resultado"></label>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

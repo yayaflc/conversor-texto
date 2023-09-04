@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+    --cinza-claro: #636363;
+    --preto: #262626;
+    --branco: #FFFFFF;
+    --branco-opaco: #E0E0E0;
+    --bege: #AA8B7D;
+
+    --josefin: 'Josefin Sans', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--preto);
+}
+
+h1 {
+    color: var(--bege);
+    font-family: var(--josefin);
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 184px;
+}
+
+textarea {
+    color: var(--branco-opaco);
+    background-color: var(--cinza-claro);
+    font-family: var(--poppins);
+    font-weight: 40px;
+    font-size: 24px;
+    width: 800px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    margin-top: 40px;
+    resize: none;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    color: var(--branco);
+    background-color: var(--bege);
+    font-family: var(--josefin);
+    font-size: 28px;
+    width: 200px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+}
+
+label {
+    color: var(--branco-opaco);
+    background-color: var(--cinza-claro);
+    font-family: var(--poppins);
+    font-weight: 40px;
+    font-size: 24px;
+    width: 800px;
+    height: 300px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.buttons {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
