@@ -10,6 +10,7 @@
     --bg-color: #c7a291;
     --tittle-color: #262626;
     --text-color: #262626;
+    --placeholder: #bdbdbd;
     --btn-hover-color: #5b5655;
     --btn-icon-theme: #000;
     --btn-hover-icon: #ffffffcd;
@@ -21,6 +22,7 @@
     --bg-color:#262626;
     --tittle-color: #AA8B7D;
     --text-color: #E0E0E0;
+    --placeholder: #bdbdbd;
     --btn-hover-color: #78635A;
     --btn-icon-theme: #fff;
     --btn-hover-icon: #323232c4;
@@ -57,6 +59,10 @@ h1 {
     text-transform: uppercase;
     text-align: center;
     padding-top: 100px;
+}
+
+::placeholder {
+    color: var(--placeholder);
 }
 
 textarea {
